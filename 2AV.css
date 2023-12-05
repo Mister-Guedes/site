@@ -1,0 +1,87 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menuh ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(46, 46, 46);
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+
+#menuh ul li a:hover {
+    background-color: #bdc916;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(149, 218, 149);
+    margin: 0;
+    padding: 0;
+    }
+
+    .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+    margin-bottom: 20px;
+    }
+
+    label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    }
+    
+    input,
+    textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    }
+    
+    button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #45a049;
+    }
+
+#zap {
+    font-size: 50px ;
+    text-align: center;
+    margin-top: 200px;
+    text-shadow: 3px 3px 5px #051b14;
+    color: white;
+    top: 20%;
+    left: 30%;
+    display:grid;
+}
